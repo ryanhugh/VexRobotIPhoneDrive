@@ -1,0 +1,12 @@
+
+[Unit]
+Description=my custom daemon
+After=hostapd.service
+
+[Service]
+Type=oneshot
+ExecStart=/root/onBoot/onboot
+Type=forking
+
+[Install]
+WantedBy=multi-user.target

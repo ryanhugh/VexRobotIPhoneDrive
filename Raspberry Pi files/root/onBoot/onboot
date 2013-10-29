@@ -1,0 +1,4 @@
+#!/bin/sh -f
+#the pwd of this file is "/"
+ifconfig wlan0 192.168.0.1
+python2 -u /root/python/pi.py 1>> /root/python/output.txt 2>> /root/python/error.txt &
