@@ -6,10 +6,10 @@ Drive a VEX robot from an iPhone!
 How It Works:
 ===== 
 
-1. The Rasberry Pi creates a Wifi network from a Vex Robot
+1. The Rasberry Pi creates a Wifi network from a VEX robot
 2. The iPhone connects and sends acceleromter data to the Pi
-3. The Pi forwards the data to the Vex Cortex through its serial port
-4. The Vex Cortex recieves the data and controls the motors
+3. The Pi forwards the data to the VEX Cortex through its serial port
+4. The VEX Cortex recieves the data and controls the motors
 
 
 Requirements:
@@ -26,7 +26,7 @@ Requirements:
 - Vex Cortex
  - [EasyC v4] (http://www.intelitekdownloads.com/easyCV4/)
 
-- Compatible Wirless Adapter
+- Compatible wirless adapter
 
 
-Note: Use a static IP address on the iPhone to connect it to the Pi's Wifi Network
+Note: Use a static IP address on the iPhone to connect it to the Pi's wifi network
